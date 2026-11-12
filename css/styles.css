@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.nav-underline {
+  text-decoration: none;
+}
+
+.nav-underline:hover,
+.nav-underline:focus {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;  
+  text-underline-offset: 6px;      
+  color: #111;                      
+}
+
+
+.hero-img {
+  height: 80vh;
+}
+
+.hero-caption {
+  bottom: 110px;
+}
+
+.hero-title {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+}
+
+.trending-img {
+  aspect-ratio: 4 / 5;
+}
+
+
+.trending-btn {
+  top: 40%;
+  transform: translateY(-50%);
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #e5e5e5;
+  z-index: 2;
+}
+
+.trending-prev { left: 1.5rem; }
+.trending-next { right: 1.5rem; }
+
+.trending-btn:disabled {
+  display: none;
+}
+
+
+.fresh-img {
+  aspect-ratio: 1 / 1;
+  background-color: #eee;
+}
+
+.fresh-btn {
+  top: 35%;
+  transform: translateY(-50%);
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #e5e5e5;
+  z-index: 2;
+}
+.fresh-prev { left: 1.5rem; }
+.fresh-next { right: 1.5rem; }
+
+.fresh-btn:disabled {
+  display: none;
+}
+
+.sport-img {
+  aspect-ratio: 4 / 5;     
+}
+
+
+.sport-btn {
+  top: 40%;
+  transform: translateY(-50%);
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #e5e5e5;
+  z-index: 2;
+}
+.sport-prev { left: 1.5rem; }
+.sport-next { right: 1.5rem; }
+
+
+.sport-btn:disabled {
+  display: none;
+}
+.sport-title {
+  font-size: 22px;
+}
+.app-banner {
+  padding-top: 84px;
+}
+.spotlight-banner {
+  padding-top: 84px;
+}
+
+
+.spotlight-grid {
+  max-width: 1136px;
+  margin-top: 120px;
+  padding-bottom: 96px;
+}
